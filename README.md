@@ -75,4 +75,4 @@ deepstream-app -c deepstream_app_config.txt
 Debuging 
 ```sh
 GST_DEBUG=3 deepstream-app -c deepstream_app_config.txt
-```sh
+```
