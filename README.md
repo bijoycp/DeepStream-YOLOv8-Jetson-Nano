@@ -87,3 +87,7 @@ Debuging
 ```sh
 GST_DEBUG=3 deepstream-app -c deepstream_app_config.txt
 ```
+### Use full links
+[NVIDIA DeepStream SDK on Jetson](https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads-archived)
+
+[YOLOv8-DeepStream-TRT-Jetson](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson/)
