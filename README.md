@@ -1,5 +1,11 @@
 # DeepStream-Yolo Jetson Nano
 
+Install git
+```sh
+sudo apt install git
+git clone https://github.com/bijoycp/DeepStream-YOLOv8-Jetson-Nano.git
+```
+
 ### install jtop
   ```sh
   pip install jetson-stats
