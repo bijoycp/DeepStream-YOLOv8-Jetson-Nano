@@ -3,6 +3,9 @@
 Install git
 ```sh
 sudo apt install git
+```
+Clone git repository
+```sh
 git clone https://github.com/bijoycp/DeepStream-YOLOv8-Jetson-Nano.git
 ```
 
