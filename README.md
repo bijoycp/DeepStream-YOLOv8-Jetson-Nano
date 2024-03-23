@@ -3,6 +3,7 @@
 ### install jtop
   ```sh
   pip install jetson-stats
+  jtop
   ```
 
 ### download models
