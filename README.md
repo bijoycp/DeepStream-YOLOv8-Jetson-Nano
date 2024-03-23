@@ -74,20 +74,22 @@ Add video source  `deepstream_app_config.txt`
 ```sh
 [source0]
 ....
-uri=file:///app/1.mp4
+uri=file:///app/video/3.mp4
 ....
 ```
 
 Now, run the application by running the following command:
 
 ```sh
-deepstream-app -c deepstream_app_config.txt
+deepstream-app
+
+ -c deepstream_app_config.txt
 ```
 Debuging 
 ```sh
 GST_DEBUG=3 deepstream-app -c deepstream_app_config.txt
 ```
-### Use full links
+### Usefull links
 [NVIDIA DeepStream SDK on Jetson](https://developer.nvidia.com/embedded/deepstream-on-jetson-downloads-archived)
 
 [YOLOv8-DeepStream-TRT-Jetson](https://wiki.seeedstudio.com/YOLOv8-DeepStream-TRT-Jetson/)
