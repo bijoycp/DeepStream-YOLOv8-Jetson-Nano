@@ -27,7 +27,7 @@ git clone https://github.com/bijoycp/DeepStream-YOLOv8-Jetson-Nano.git
 ### 1. Build the image
   ```sh
   cd docker/
-  sudodocker build . -t  deepstream:jetson
+  sudo docker build . -t  deepstream:jetson
   ```
 ### 2. Start a container
 ```sh
