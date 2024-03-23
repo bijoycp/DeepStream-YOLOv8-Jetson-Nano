@@ -14,7 +14,7 @@ nvbuf-memory-type=0
 [source0]
 enable=1
 type=3
-uri=file:///app/1.mp4
+uri=file:///app/3.mp4
 num-sources=1
 gpu-id=0
 cudadec-memtype=0

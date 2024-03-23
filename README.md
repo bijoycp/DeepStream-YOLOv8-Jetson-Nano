@@ -28,6 +28,7 @@ git clone https://github.com/bijoycp/DeepStream-YOLOv8-Jetson-Nano.git
   ```sh
   cd docker/
   sudo docker build . -t  deepstream:jetson
+  cd ..
   ```
 ### 2. Start a container
 ```sh
@@ -35,7 +36,7 @@ xhost +
 
 export DISPLAY=:0
 
-sudo docker run -it --rm --net=host --runtime nvidia -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix -v /home/cp/Desktop/yolov8/DeepStream-Yolo:/app deepstream:jetson
+sudo docker run -it --rm --net=host --runtime nvidia -e DISPLAY=$DISPLAY -v /tmp/.X11-unix/:/tmp/.X11-unix -v $PWD:/app deepstream:jetson
 ```
 ## Running the Application
 
