@@ -17,7 +17,6 @@ git clone https://github.com/bijoycp/DeepStream-YOLOv8-Jetson-Nano.git
 
 ### download models
   ```sh
-  cd models
   chmod 0777 download-models.sh
   ./download-models.sh
   ```
